@@ -24,6 +24,19 @@ header {
   font-weight: bold;
 }
 
+.profile-pic img {
+  width: 180px; /* Adjust size */
+  height: 200px; /* Keep it square */
+  border-radius: 50%; /* Circular shape */
+  border: 3px solid #333; /* Optional border */
+  display: block;
+  margin: auto; /* Center it */
+}
+.profile-pic {
+  padding: 20px;
+}
+
+
 .container {
   display: flex;
 }
